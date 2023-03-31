@@ -29,7 +29,7 @@ const StudentForm = (props) => {
     const submitDataEdit = async (e) => {
         e.preventDefault();
         // eslint-disable-next-line
-        const result = await axios.put(API_URL + student.id, student, {headers: {'Content-Type': 'multipart/form-data'}})
+        const result = await axios.put(API_URL + student.id + '/', student, {headers: {'Content-Type': 'multipart/form-data'}})
             .then(() => {
                 props.resetState()
                 props.toggle()
