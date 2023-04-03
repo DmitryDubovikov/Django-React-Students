@@ -4,7 +4,7 @@
 
 This project is 1/2 test assignment and 1/2 pet project for skills development and demonstration.
 
-Lists of students app: .
+Lists of students app.
 
 ## Technologies used: 
 * Django, 
